@@ -900,17 +900,6 @@ Text GLabel 9225 725  2    60   Input ~ 0
 XTAL2
 Text GLabel 8650 725  0    60   Input ~ 0
 XTAL1
-$Comp
-L Conn_02x03_Counter_Clockwise J3
-U 1 1 5B6FFEB7
-P 9150 6275
-F 0 "J3" H 9200 6475 50  0000 C CNN
-F 1 "ISP" H 9200 6075 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9150 6275 50  0001 C CNN
-F 3 "" H 9150 6275 50  0001 C CNN
-	1    9150 6275
-	1    0    0    -1  
-$EndComp
 Text GLabel 9575 6275 2    60   Input ~ 0
 PDI
 Text GLabel 8825 6175 0    60   Input ~ 0
@@ -2362,4 +2351,15 @@ F 3 "" H 5000 2875 50  0001 C CNN
 $EndComp
 Text Notes 4450 3150 0    60   ~ 0
 Op-Amp Bypass
+$Comp
+L Conn_02x03_Odd_Even J3
+U 1 1 5BB6F199
+P 9150 6275
+F 0 "J3" H 9200 6475 50  0000 C CNN
+F 1 "ISP" H 9200 6075 50  0000 C CNN
+F 2 "" H 9150 6275 50  0001 C CNN
+F 3 "" H 9150 6275 50  0001 C CNN
+	1    9150 6275
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
