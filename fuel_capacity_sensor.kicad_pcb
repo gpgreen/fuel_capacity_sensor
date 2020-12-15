@@ -33,7 +33,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -494,7 +494,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B960051) (tstamp 5B7516E0)
-    (at 106.5 90.2)
+    (at 111.4 91.4)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B70C532)
@@ -674,7 +674,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B7516FE)
-    (at 116.6 90.3 180)
+    (at 121.6 91.4 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B70C41E)
@@ -710,7 +710,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B96003C) (tstamp 5B751704)
-    (at 126.3 90 180)
+    (at 131 86.9 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B716C09)
@@ -818,7 +818,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B960038) (tstamp 5B751716)
-    (at 128.4 92.3 180)
+    (at 128.7 99.3 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B6F9538)
@@ -1006,7 +1006,7 @@
   )
 
   (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5B96019E) (tstamp 5B751734)
-    (at 148.8 72.6 90)
+    (at 152 72.6 90)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5B71C263)
@@ -1138,7 +1138,7 @@
   )
 
   (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5B9601A0) (tstamp 5B751746)
-    (at 145.6 72.6 90)
+    (at 149.2 72.6 90)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5B721F33)
@@ -1614,7 +1614,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5B95FF7D) (tstamp 5B75179E)
-    (at 148.9 77.1)
+    (at 152.1 77.1)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B71D04B)
@@ -1974,7 +1974,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5B95FF7A) (tstamp 5B7517DA)
-    (at 145.6 77.1)
+    (at 149.3 77.1)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B7220E1)
@@ -2010,7 +2010,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5B96016B) (tstamp 5B7517E0)
-    (at 131.7 92.3 180)
+    (at 131.8 99.3 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B6F9E5E)
@@ -2045,8 +2045,8 @@
     )
   )
 
-  (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CD0CDA) (tstamp 5B7517F2)
-    (at 133.9 80.7 180)
+  (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 5BBA6FE1) (tstamp 5B7517F2)
+    (at 131.1 91.6 180)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5B7191E5)
@@ -2054,7 +2054,7 @@
     (fp_text reference U3 (at 0 -3.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ADuM1201CR (at 0 3.5 180) (layer F.Fab)
+    (fp_text value ADuM1201CR (at 0 3.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -2099,8 +2099,8 @@
     )
   )
 
-  (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 5B960173) (tstamp 5B7517FE)
-    (at 126.3 85.4 90)
+  (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 5BBA6FDC) (tstamp 5B7517FE)
+    (at 130.9 82.1 90)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5B714764)
@@ -2108,7 +2108,7 @@
     (fp_text reference U6 (at 4.8 -1.9 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP2551-I/SN (at 0 3.5 90) (layer F.Fab)
+    (fp_text value MCP2551-I/SN (at 0 3.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2153,16 +2153,16 @@
     )
   )
 
-  (module Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm (layer F.Cu) (tedit 5B95FFC5) (tstamp 5B752048)
+  (module Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm (layer F.Cu) (tedit 5BBA6FD7) (tstamp 5B752048)
     (at 145.2 87.4 90)
     (descr "64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.5")
-    (path /5B6F4BF4)
+    (path /5BBA7199)
     (attr smd)
     (fp_text reference U7 (at 5.6 -5.9 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AT90CAN32-16AU (at 0 7.45 90) (layer F.Fab)
+    (fp_text value AT90CAN64-16AU (at 0 7.45 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2413,7 +2413,7 @@
   )
 
   (module CustomComponents:switch-kpt-1187B-SMD (layer F.Cu) (tedit 5B960165) (tstamp 5B765D72)
-    (at 131.6 96.3)
+    (at 131.8 103.4)
     (tags switch)
     (path /5B6F9F72)
     (fp_text reference SW1 (at -0.3 3.9) (layer F.SilkS)
@@ -2667,7 +2667,7 @@
   )
 
   (module CustomComponents:DCP01B_SO_7_14 (layer F.Cu) (tedit 0) (tstamp 5B78B5E1)
-    (at 112.7 83.5 90)
+    (at 117.7 84.4 90)
     (path /5B792962)
     (fp_text reference U4 (at -0.1016 1.016 90) (layer F.SilkS)
       (effects (font (size 1.016 0.762) (thickness 0.127)))
@@ -2701,7 +2701,7 @@
   )
 
   (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5B9601A2) (tstamp 5B82217E)
-    (at 142.4 72.6 90)
+    (at 146.4 72.6 90)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5B7F9647)
@@ -2745,7 +2745,7 @@
   )
 
   (module Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight (layer F.Cu) (tedit 5B95FF70) (tstamp 5B822188)
-    (at 106.2 73.4)
+    (at 110.7 73.3)
     (descr "JST XH series connector, B06B-XH-A, top entry type, through hole")
     (tags "connector jst xh tht top vertical 2.50mm")
     (path /5B83F674)
@@ -2811,15 +2811,15 @@
     )
   )
 
-  (module Connectors:bnc-ci (layer F.Cu) (tedit 5B95FF6D) (tstamp 5B822191)
-    (at 96.2 76.2)
+  (module Connectors:bnc-ci (layer F.Cu) (tedit 5BBA6FA8) (tstamp 5B822191)
+    (at 101.8 76)
     (descr "BNC female PCB mount 4 pin straight chassis connector")
     (tags "BNC female PCB mount 4 pin straight chassis connector http://img-asia.electrocomponents.com/largeimages/L457024-02.gif")
     (path /5B7ABF5C)
     (fp_text reference J4 (at 6.5 2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_Coaxial (at 0 6.5) (layer F.Fab)
+    (fp_text value Conn_Coaxial (at 0 6.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 5.5 -5.5) (end 5.5 5.5) (layer F.CrtYd) (width 0.05))
@@ -2849,7 +2849,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5B95FF77) (tstamp 5B822197)
-    (at 142.3 77.1)
+    (at 146.6 77.1)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B7F8CB1)
@@ -2991,7 +2991,7 @@
   )
 
   (module Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight (layer F.Cu) (tedit 5B95FF73) (tstamp 5B822414)
-    (at 125.1 73.4)
+    (at 129.4 73.3)
     (descr "JST XH series connector, B06B-XH-A, top entry type, through hole")
     (tags "connector jst xh tht top vertical 2.50mm")
     (path /5B83F7C9)
@@ -3057,7 +3057,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 5B960206) (tstamp 5B82337F)
+  (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 5BBA6FCF) (tstamp 5B82337F)
     (at 157.5 99)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
@@ -3065,7 +3065,7 @@
     (fp_text reference J5 (at -2.7 6.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SERIAL (at 0 15.03) (layer F.Fab)
+    (fp_text value SERIAL (at 0 15.03) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -3161,7 +3161,7 @@
       (net 94 "Net-(R11-Pad1)"))
   )
 
-  (module TO_SOT_Packages_SMD:TO-252-2 (layer F.Cu) (tedit 5B95FFEA) (tstamp 5B919537)
+  (module TO_SOT_Packages_SMD:TO-252-2 (layer F.Cu) (tedit 5BBA70BD) (tstamp 5B919537)
     (at 145 109.1)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3170,7 +3170,7 @@
     (fp_text reference U1 (at 6.7 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LM78M05_TO252 (at 0 4.5) (layer F.Fab)
+    (fp_text value LM78M05_TO252 (at 0 4.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.95 -2.7) (end 4.95 -2.7) (layer F.Fab) (width 0.1))
@@ -3222,7 +3222,7 @@
   )
 
   (module Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow (layer F.Cu) (tedit 0) (tstamp 5B91C2B0)
-    (at 99.7 83.1)
+    (at 99.9 84.1)
     (descr "Fuse, Sicherung, SMD1206, Littlefuse-Wickmann, Reflow,")
     (tags "Fuse Sicherung SMD1206 Littlefuse-Wickmann Reflow ")
     (path /5B921EC8)
@@ -3249,15 +3249,15 @@
       (net 104 "Net-(F1-Pad2)"))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B91CAC6)
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5BBA705A) (tstamp 5B91CAC6)
     (at 157 117)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -3268,15 +3268,15 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B91CAC8)
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5BBA7051) (tstamp 5B91CAC8)
     (at 157 73)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -3287,15 +3287,15 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5B960217) (tstamp 5B91CAC9)
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5BBA7055) (tstamp 5B91CAC9)
     (at 93 117)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at -1.1 5.2) (layer F.SilkS)
+    (fp_text reference REF** (at -1.1 5.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -3306,15 +3306,15 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B91CACB)
-    (at 100 87.5)
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5BBA704D) (tstamp 5B91CACB)
+    (at 93 73)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -3325,7 +3325,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B957A06)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5BBA6FC1) (tstamp 5B957A06)
     (at 94.6 88.2)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3334,7 +3334,7 @@
     (fp_text reference Q1 (at 0 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BCW65CLT1G (at 0 2.5) (layer F.Fab)
+    (fp_text value BCW65CLT1G (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -3367,7 +3367,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B96017D) (tstamp 5B95817A)
-    (at 139.1 79 270)
+    (at 135.8 92.9 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B95BC24)
@@ -3403,7 +3403,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B960187) (tstamp 5B958180)
-    (at 129.3 79.4 270)
+    (at 126.6 92.9 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B95BAAE)
